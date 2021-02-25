@@ -21,8 +21,7 @@ Make sure you have the **Stage** selected and can see the following scripts:
 ![Screenshot of scripts. When green flag clicked, ](images/stage_code.png)
 --- /task ---
 --- task ---
-Using the **Simple Electronics** Extension, add the following blocks into the **if** block so that if **distance** is less than 10, the LED comes on,
-
+Using the **Simple Electronics** Extension, add the following blocks into the **if** block so that if **distance** is less than 10, the LED comes on - **else** it turns off.
 ```blocks3
 turn LED (21 v) [on v] ::extension hat
 
