@@ -20,3 +20,12 @@ Download and open the premade Scratch project [available here](https://www.youtu
 Make sure you have the **Stage** selected and can see the following scripts:
 ![Screenshot of scripts. When green flag clicked, ](images/stage_code.png)
 --- /task ---
+--- task ---
+Using the **Simple Electronics** Extension, add the following blocks into the **if** block so that if **distance** is less than 10, the LED comes on,
+
+```blocks3
+turn LED (20 v) [on v] ::extension
+
+turn LED (20 v) [off v] ::extension
+```
+--- /task ---
