@@ -7,5 +7,13 @@ copyedit: false
 last_tested: "2021-02-25"
 steps:
   - title: Introduction
-  - title: Step title
+  - title: Test your Circuit
+  - title: Code your Circuit
+  - title: Reflection
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Upgrade your project
   - title: What next?
