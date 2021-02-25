@@ -1,7 +1,22 @@
-## What next?
+## Code your circuit
 
-If you are following the [PathwayName](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+In this step, you will connect your completed circuit to an output pin on the Raspberry Pi and control it using code.
 
-![ProjectName project](images/projectname-project.png)
+--- task ---
+Our circuit is working and our LED is lit, but we want it to run when something happens in our Scratch program. 
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+In order to do that, we need to connect our LED circuit to an output pin on the Pi. Simply take the jumper cable off of Pin 1 and attach it to any other numbered Pin. In this example, I’ve used Pin 21 (because it’s easy to get to) but you can use any numbered GP pin on your Raspberry Pi.
+
+![circuit diagram of a jumper cable with a resistor and LED wired to 3V3 on the Raspberry Pi](images/Pi_1_complete.png)
+--- /task ---
+
+--- task ---
+
+Download and open the premade Scratch project [available here](https://www.youtube.com/watch?v=dQw4w9WgXcQ){:target="_blank"}.
+
+--- /task ---
+
+--- task ---
+Make sure you have the **Stage** selected and can see the following scripts:
+![Screenshot of scripts. When green flag clicked, ](images/stage_code.png)
+--- /task ---
