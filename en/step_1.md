@@ -1,6 +1,6 @@
 ## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+In this project, you'll take your first step in using the Rapsberry Pi's GPIO pins to make machines. We'll be connecting wires, lights and switches to make simple electrical circuits, then linking it up to a computer game so that when we score points, there is a flashing light!
 
 ### What you will make
 
@@ -22,14 +22,14 @@ title: What you will need
 ---
 ### Hardware
 
-+ A computer or tablet capable of running Scratch 3
++ A Raspberry Pi computer
++ 3x Female-Female jumper cables
++ an LED
++ a resistor (the lower resistance, the better!)
 
 ### Software
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
++ Scratch 3 Desktop 
 ### Downloads
 
 + Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
@@ -41,9 +41,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
++ Connecting a simple circuit to your Raspberry Pi
++ How to use an LED with the Raspberry Pi and Scratch
 
 --- /collapse ---
 
