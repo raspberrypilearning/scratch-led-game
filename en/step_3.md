@@ -24,8 +24,8 @@ Make sure you have the **Stage** selected and can see the following scripts:
 Using the **Simple Electronics** Extension, add the following blocks into the **if** block so that if **distance** is less than 10, the LED comes on,
 
 ```blocks3
-turn LED (21 v) [on v] ::extension
+turn LED (21 v) [on v] ::extension hat
 
-turn LED (21 v) [off v] ::extension
+turn LED (21 v) [off v] ::extension hat
 ```
 --- /task ---
