@@ -1,13 +1,18 @@
 ## Code your circuit
 
 In this step, you will connect your completed circuit to an output pin on the Raspberry Pi and control it using the `Simple Electronics`{:class="block3extensions"} extension.
-
---- task ---
 Our circuit is working and our LED is lit, but we want it to run when something happens in our Scratch program. 
 
-In order to do that, we need to connect our LED circuit to an output pin on the Pi. Simply take the jumper cable off of Pin 1 and attach it to any other numbered Pin. In this example, I’ve used Pin 21 (because it’s easy to get to) but you can use any numbered GP pin on your Raspberry Pi.
+In order to do that, we need to connect our LED circuit to an output pin on the Pi.
+
+--- task ---
+Take the jumper cable off of Pin 1 and attach it to any other numbered Pin. In this example, I’ve used Pin 21 (because it’s easy to get to) but you can use any numbered GP pin on your Raspberry Pi. 
+
 
 ![circuit diagram of a jumper cable with a resistor and LED wired to 3V3 on the Raspberry Pi](images/Pi_1_complete.png)
+
+If you use a different pin to Pin 21, make sure that you change the number **everywhere** it appears in your code.
+
 --- /task ---
 
 --- task ---
