@@ -27,4 +27,28 @@ turn LED (21 v) [on v] ::extension hat
 
 turn LED (21 v) [off v] ::extension hat
 ```
+--- collapse ---
+---
+title: I need a hint!
+---
+You want the light to go on if the distance between your sprites gets smaller, and off if it gets larger.
+
+Try:
+```blocks3
+when green flag clicked
+forever
+if if <[0] < (distance)> then
+  turn LED (21 v) [on v] ::extension hat
+else
+  turn LED (21 v) [off v] ::extension hat
+end
+```
+--- /collapse ---
+
 --- /task ---
+
+--- task ---
+Now click the green flag, and see if you can hunt the hedgehog!
+--- /task ---
+
+--- save ---
