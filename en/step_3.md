@@ -37,7 +37,7 @@ Try:
 ```blocks3
 when green flag clicked
 forever
-if <[0] < (var distance) > then
+if <[0] < (dist) > then
   turn LED (21 v) [on v] ::extension
 else
   turn LED (21 v) [off v] ::extension
