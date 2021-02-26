@@ -23,9 +23,9 @@ Make sure you have the **Stage** selected and can see the following scripts:
 --- task ---
 Using the **Simple Electronics** Extension, add the following blocks into the **if** block so that if **distance** is less than 10, the LED comes on - **else** it turns off.
 ```blocks3
-turn LED (21 v) [on v] ::extension
+turn LED (21 v) [on v] ::led extension
 
-turn LED (21 v) [off v] ::extension
+turn LED (21 v) [off v] ::led extension
 ```
 --- collapse ---
 ---
@@ -38,9 +38,9 @@ Try:
 when green flag clicked
 forever
 if <[0] < (dist) > then
-  turn LED (21 v) [on v] ::extension
+  turn LED (21 v) [on v] ::led extension
 else
-  turn LED (21 v) [off v] ::extension
+  turn LED (21 v) [off v] ::led extension
 end
 ```
 --- /collapse ---
