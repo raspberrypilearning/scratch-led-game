@@ -1,6 +1,6 @@
 ## Code your circuit
 
-In this step, you will connect your completed circuit to an output pin on the Raspberry Pi and control it using the `Simple Electronics`{:class="block3extension"} extension.
+In this step, you will connect your completed circuit to an output pin on the Raspberry Pi and control it using the `Simple Electronics`{:class="block3extensions"} extension.
 
 --- task ---
 Our circuit is working and our LED is lit, but we want it to run when something happens in our Scratch program. 
