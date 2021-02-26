@@ -18,7 +18,7 @@ We add a resistor to our circuit to control the **electrical current** passing t
 --- /task ---
 
 --- task ---
-Insert the **long** leg of your LED into the end of this jumper cable, and connect the short leg back to Pin6 using another female-female jumper cable. As soon as you close the circuit by connecting it back to your ground pin, your LED will light up! 
+Insert the **long leg** of your LED into the end of this jumper cable, and connect the **short leg** back to Pin 6 using another female-female jumper cable. As soon as you close the circuit by connecting it back to your ground pin, your LED should light up! 
 
 ![circuit diagram of a jumper cable with a resistor wired to 3V3 on the Raspberry Pi](images/Pi_4_complete_test.jpg)
 
