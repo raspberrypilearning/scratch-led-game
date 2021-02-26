@@ -7,7 +7,7 @@ GPIO stands for **G**eneral **P**urpose **I**nput/**O**utput, which is basically
 ### What you will make
 
 --- no-print ---
-Add instructions for interacting with the embedded content here.
+**Short video of project working inserted here.  WIP. **
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
@@ -32,9 +32,10 @@ title: What you will need
 ### Software
 
 + Scratch 3 Desktop 
+
 ### Downloads
 
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
++ Download the project [starter file](http://rpf.io/p/en/Hunt_The_Hedgehog-go){:target="_blank"} if working offline
 
 --- /collapse ---
 
