@@ -1,8 +1,8 @@
 ## Introduction
 
-In this project, you'll take your first step in using the Raspberry Pi's GPIO pins to make machines! You'll be connecting wires and lights to your Pi to create simple electrical circuits, then linking it up to a computer game so that when we score points there is a flashing light!
+In this project, you'll take your first step in using the Raspberry Pi's GPIO pins to make machines! You'll be connecting wires and lights to your Pi to create simple electrical circuits, then linking it up to a computer game so that you can find the hidden hedgehog!
 
-GPIO stands for **G**eneral **P**urpose **I**nput/**O**utput, which is basically a way to create simple machines by sending a small electrical signal out of a pin, down a wire and through an output or input, then back into a ground pin on the Raspberry Pi to create a circuit. The behaviour of the circuits you make can be programmed and controlled through programs written by you, using Scratch!
+
 
 ### What you will make
 
@@ -25,7 +25,7 @@ title: What you will need
 ### Hardware
 
 + A Raspberry Pi computer
-+ 3x Female-Female jumper cables
++ 3x F-F jumper cables
 + an LED
 + a resistor (the lower resistance, the better!)
 
