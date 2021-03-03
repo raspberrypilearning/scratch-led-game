@@ -10,7 +10,7 @@ In this project, you'll take your first step in using the Raspberry Pi's GPIO pi
 View a 'virtual' version of the finished Physical Computing Project here:
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/492829675/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/492829675/?autostart=false" frameborder="0"></iframe>
 </div>
 --- /no-print ---
 
