@@ -7,10 +7,10 @@ In this project, you'll take your first step in using the Raspberry Pi's GPIO pi
 ### What you will make
 
 --- no-print ---
-**Short video of project working inserted here.  WIP. **
+View a 'virtual' version of the finished Physical Computing Project here:
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/492829675/?autostart=false" frameborder="0"></iframe>
 </div>
 --- /no-print ---
 
@@ -31,11 +31,11 @@ title: What you will need
 
 ### Software
 
-+ Scratch 3 Desktop 
++ Scratch 3 Desktop - This project can not be completed using the online Scratch editor
 
 ### Downloads
 
-+ Download the project [starter file](http://rpf.io/p/en/Hunt_The_Hedgehog-go){:target="_blank"} if working offline
++ Download the starter project [available here](http://rpf.io/p/en/Hunt_The_Hedgehog-get){:target="_blank"} 
 
 --- /collapse ---
 
@@ -54,8 +54,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
+You can download the completed project [here](http://rpf.io/p/en/Hunt_The_Hedgehog-get){:target="_blank"}.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/scratch-physcomp1/print){:target="_blank"}.
 
 --- /collapse ---
