@@ -2,7 +2,7 @@
 
 In this step, you will connect an LED and resistor to the Raspberry Pi's GPIO pins to test your circuit.
 
-GPIO stands for **G**eneral **Purpose** **I**nput/**O**utput, which is a way to create simple machines by sending a small electrical signal out of a pin, down a wire and through an output or input, then back into a ground pin on the Raspberry Pi to create a circuit. The behaviour of the circuits you make can be programmed and controlled through programs written by you, using Scratch!
+GPIO stands for **G**eneral **P**urpose **I**nput/**O**utput, which is a way to create simple machines by sending a small electrical signal out of a pin, down a wire and through an output or input, then back into a ground pin on the Raspberry Pi to create a circuit. The behaviour of the circuits you make can be programmed and controlled through programs written by you, using Scratch!
 
 --- task ---
 Your jumper wires should all have hollow 'F' ends that fit over the pins. 
