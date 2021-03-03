@@ -35,7 +35,7 @@ title: What you will need
 
 ### Downloads
 
-+ Download the starter project [available here](http://rpf.io/p/en/rpi-Hunt_The_Hedgehog-get){:target="_blank"} 
++ Download the starter project [available here](http://rpf.io/p/en/rpi-scratch-physcomp1-get){:target="_blank"} 
 
 --- /collapse ---
 

@@ -18,7 +18,7 @@ If you use a different pin to Pin 21, make sure that you change the number **eve
 
 --- task ---
 
-Download and open the premade Scratch project [available here](http://rpf.io/p/en/Hunt_The_Hedgehog-get){:target="_blank"}.
+Download and open the premade Scratch project [available here](http://rpf.io/p/en/rpi-scratch-physcomp1-get){:target="_blank"}.
 
 --- /task ---
 
