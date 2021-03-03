@@ -35,7 +35,7 @@ title: What you will need
 
 ### Downloads
 
-+ Download the starter project [available here](http://rpf.io/p/en/Hunt_The_Hedgehog-get){:target="_blank"} 
++ Download the starter project [available here](http://rpf.io/p/en/rpi-Hunt_The_Hedgehog-get){:target="_blank"} 
 
 --- /collapse ---
 
@@ -54,7 +54,7 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/Hunt_The_Hedgehog-get){:target="_blank"}.
+You can download the completed project [here](http://rpf.io/p/en/rpi-Hunt_The_Hedgehog-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/scratch-physcomp1/print){:target="_blank"}.
 
