@@ -9,22 +9,27 @@ Your jumper wires should all have hollow 'F' ends that fit over the pins.
 
 Connect a jumper wire to Pin 1, making sure it is an F-F wire. Pin 1 is always on and provides 3 volts of power to whatever you connect to it.  
 
-![circuit diagram of a jumper cable wired to 3V3 on the Raspberry Pi](images/Pi_2_jumper_test.jpg)
+![circuit diagram of a jumper cable wired to 3V3 on the Raspberry Pi](images/Pi_jumper_Test1.jpg)
 
 --- /task ---
 
 --- task ---
-Take a resistor and insert one of it’s legs into the other end of the jumper cable attached to Pin 1. Insert the other leg into another F-F jumper cable. 
-We add a resistor to our circuit to control the **electrical current** passing through it, to protect the LED from burning out.
+Insert the **long leg** of your LED into the end of this jumper cable. Take a second F-F jumper cable and attach it to the **short leg** or your LED.
 
-![circuit diagram of a jumper cable with a resistor wired in series to 3V3 on the Raspberry Pi](images/Pi_3_resistor_test.jpg)
+![circuit diagram of a jumper cable with a LED wired in series to 3V3 on the Raspberry Pi](images/Pi_LED_test2.jpg)
 
 --- /task ---
 
 --- task ---
-Insert the **long leg** of your LED into the end of this jumper cable, and connect the **short leg** back to Pin 6 using the last F-F jumper cable. As soon as you close the circuit by connecting it back to your ground pin, your LED should light up! 
+Take a resistor and insert one of it’s legs into the other end of the jumper cable. Insert the other leg into another F-F jumper cable. We add a resistor to our circuit to control the **electrical current** passing through it, to protect the LED from burning out. 
 
-![circuit diagram of a jumper cable with a resistor and LED wired in series to 3V3 on the Raspberry Pi](images/Pi_4_complete_test.jpg)
+![circuit diagram of a jumper cable with a resistor and LED wired in series to 3V3 on the Raspberry Pi](images/Pi_resistor_test3.jpg)
+--- /task ---
+
+--- task ---
+Now, connect your circuit back to Pin 6 using the the loose end of the F-F jumper cable. As soon as you close the circuit by connecting it back to your ground pin, your LED should light up! 
+
+![circuit diagram of a jumper cable with a resistor and LED wired in series to 3V3 on the Raspberry Pi](images/Pi_1_complete.png)
 
 --- collapse ---
 ---

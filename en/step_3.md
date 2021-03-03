@@ -10,7 +10,7 @@ In order to do that, we need to connect our LED circuit to an output pin on the 
 Take the jumper cable off of Pin 1 and attach it to any other numbered Pin. In this example, I’ve used Pin 21 (because it’s easy to get to) but you can use any numbered GP pin on your Raspberry Pi. 
 
 
-![circuit diagram of a jumper cable with a resistor and LED wired to 3V3 on the Raspberry Pi](images/Pi_1_complete.png)
+![circuit diagram of a jumper cable with a resistor and LED wired to 3V3 on the Raspberry Pi](images/Pi_21_Complete.png)
 
 If you use a different pin to Pin 21, make sure that you change the number **everywhere** it appears in your code.
 
@@ -18,7 +18,7 @@ If you use a different pin to Pin 21, make sure that you change the number **eve
 
 --- task ---
 
-Download and open the premade Scratch project [available here](https://www.youtube.com/watch?v=dQw4w9WgXcQ){:target="_blank"}.
+Download and open the premade Scratch project [available here](http://rpf.io/p/en/Hunt_The_Hedgehog-get){:target="_blank"}.
 
 --- /task ---
 
