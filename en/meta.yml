@@ -3,7 +3,7 @@ hero_image: images/banner.png
 description: scratch-physcomp1 description
 version: 4
 listed: false
-copyedit: false
+copyedit: true
 last_tested: "2021-02-25"
 steps:
   - title: Introduction
