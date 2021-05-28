@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you'll take your first step in using the Raspberry Pi's GPIO pins to make machines! You'll be connecting wires and lights to your Pi to create simple electrical circuits, then linking it up to a computer game so that you can find the hidden hedgehog!
+In this project, you'll take your first steps in using the Raspberry Pi's GPIO pins to make machines! You'll connect wires and lights to your Raspberry Pi to create simple electrical circuits, and then you'll link it up to a computer game so that you can find the hidden hedgehog!
 
 
 
@@ -26,8 +26,8 @@ title: What you will need
 
 + A Raspberry Pi computer
 + 3x F-F jumper cables
-+ an LED
-+ a resistor (the lower resistance, the better!)
++ An LED
++ A resistor (the lower resistance, the better!)
 
 ### Software
 
@@ -44,7 +44,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Connecting a simple circuit to your Raspberry Pi
++ How to connect a simple circuit to your Raspberry Pi
 + How to use an LED with the Raspberry Pi and Scratch
 
 --- /collapse ---
