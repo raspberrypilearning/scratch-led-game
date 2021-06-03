@@ -25,13 +25,13 @@ title: What you will need
 ### Hardware
 
 + A Raspberry Pi computer
-+ 3x F-F jumper cables
++ 3x F-F jumper wires
 + An LED
 + A resistor (the lower resistance, the better!)
 
 ### Software
 
-+ Scratch 3 Desktop - This project can not be completed using the online Scratch editor
++ Scratch 3 Desktop – This project can not be completed using the online Scratch editor
 
 ### Downloads
 
