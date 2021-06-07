@@ -7,7 +7,7 @@ GPIO stands for **G**eneral **P**urpose **I**nput/**O**utput. GPIO pins allow yo
 --- task ---
 Your jumper wires should all have hollow 'F' ends that fit over the pins. 
 
-Connect a jumper cable to Pin 1 (make sure it's an F-F wire). Pin 1 is always on and provides 3 V of power to whatever you connect to it.  
+Connect a jumper wire to Pin 1 (make sure it's an F-F wire). Pin 1 is always on and provides 3 V of power to whatever you connect to it.  
 
 ![Circuit diagram of a jumper wire connected to 3V3 on a Raspberry Pi.](images/Pi_jumper_Test1.png)
 
@@ -21,13 +21,13 @@ Insert the **long leg** of your LED into the other end of this jumper wire. Take
 --- /task ---
 
 --- task ---
-Take a resistor and insert one of its legs into the other end of the second jumper wire. Insert the other leg into another F-F jumper wire. Adding the resistor to your circuit controls the **electrical current** passing through the circuit; this will protect the LED from burning out. 
+Take a resistor and insert one of its legs into the free end of the second jumper wire. Insert the other leg into another F-F jumper wire. Adding the resistor to your circuit controls the **electrical current** passing through the circuit; this will protect the LED from burning out. 
 
 ![Circuit diagram of a jumper wire with a resistor and LED wired in series to 3V3 on a Raspberry Pi.](images/Pi_resistor_test3.png)
 --- /task ---
 
 --- task ---
-Now, connect your circuit back to Pin 6 using the the loose end of the F-F jumper wire. As soon as you close the circuit by connecting it back to your ground pin, your LED should light up! 
+Now, connect your circuit back to Pin 6 using the loose end of the F-F jumper wire. As soon as you close the circuit by connecting it back to your ground pin, your LED should light up! 
 
 ![Circuit diagram of a completed circuit with a jumper wire with a resistor and LED wired in series to 3V3 on a Raspberry Pi.](images/Pi_1_complete.png)
 
