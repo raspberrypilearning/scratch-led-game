@@ -25,7 +25,7 @@ title: What you will need
 ### Hardware
 
 + A Raspberry Pi computer
-+ 3x F-F jumper wires
++ 3 × F-F jumper wires
 + An LED
 + A resistor (the lower resistance, the better!)
 
@@ -45,7 +45,7 @@ title: What you will learn
 ---
 
 + How to connect a simple circuit to your Raspberry Pi
-+ How to use an LED with the Raspberry Pi and Scratch
++ How to use an LED with a Raspberry Pi and Scratch
 
 --- /collapse ---
 
