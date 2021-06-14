@@ -31,7 +31,7 @@ title: What you will need
 
 ### Software
 
-+ Scratch 3 Desktop - This project can not be completed using the online Scratch editor
++ Scratch 3 Desktop - This project can not be completed using the online Scratch editor, and must be completed using a Raspberry Pi with the desktop version installed.
 
 ### Downloads
 
