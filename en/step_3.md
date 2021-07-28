@@ -18,28 +18,21 @@ If you use a pin other than Pin 21, make sure that you change the number **every
 
 --- task ---
 
-Download and open the premade Scratch project [available here](http://rpf.io/p/en/rpi-scratch-physcomp1-get){:target="_blank"}.
+Download and open the starter project [available here](http://rpf.io/p/en/rpi-scratch-physcomp1-get){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
+
 Make sure you have the Stage selected and you can see the following scripts:
 ![Screenshot of scripts. When green flag clicked.](images/stage_code.png)
+
 --- /task ---
+
 --- task ---
+
 Using the `Simple Electronics`{:class="block3extensions"} extension, add the following blocks into the `if`{:class="block3control"} block so that if `distance`{:class="block3variables"} is less than `10`, the LED comes on — `else`{:class="block3control"} it turns off.
-```blocks3
-turn LED (21 v) [on v] ::led extension
 
-turn LED (21 v) [off v] ::led extension
-```
---- collapse ---
----
-title: I need a hint!
----
-You want the light to turn on if the distance between your sprites gets smaller, and off if it gets larger.
-
-Try:
 ```blocks3
 when green flag clicked
 forever
@@ -49,12 +42,13 @@ else
   turn LED (21 v) [off v] ::led extension
 end
 ```
---- /collapse ---
 
 --- /task ---
 
 --- task ---
+
 Now click on the green flag, and see if you can hunt the hedgehog!
+
 --- /task ---
 
 --- save ---
