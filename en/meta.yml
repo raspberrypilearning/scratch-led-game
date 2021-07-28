@@ -1,14 +1,14 @@
-title: scratch-physcomp1
+title: An LED game 
 hero_image: images/banner.png
-description: scratch-physcomp1 description
+description: Use an LED to help find the hedgehog
 version: 4
 listed: false
 copyedit: true
 last_tested: "2021-02-25"
 steps:
   - title: Introduction
-  - title: Test your Circuit
-  - title: Code your Circuit
+  - title: Test your circuit
+  - title: Code your circuit
   - title: Reflection
     knowledge_quiz:
       path: quiz1
