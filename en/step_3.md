@@ -37,9 +37,9 @@ Using the `Simple Electronics`{:class="block3extensions"} extension, add the fol
 when green flag clicked
 forever
 if <[0] < (dist) > then
-  + turn LED (21 v) [on v] ::led extension
++turn LED (21 v) [on v] ::led extension
 else
-  + turn LED (21 v) [off v] ::led extension
++turn LED (21 v) [off v] ::led extension
 end
 ```
 
