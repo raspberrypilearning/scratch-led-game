@@ -7,7 +7,7 @@ In this project, you'll take your first step in using the Raspberry Pi's GPIO pi
 ### What you will make
 
 --- no-print ---
-View a 'virtual' version of the finished Physical Computing Project here:
+View a 'virtual' version of the finished Physical Computing Project. Move your character around the screen using the arrow keys. When you are close to the hedgehog, the LED will appear.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/492829675/?autostart=false" frameborder="0"></iframe>
