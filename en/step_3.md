@@ -18,7 +18,7 @@ If you use a pin other than Pin 21, make sure that you change the number **every
 
 --- task ---
 
-Download and open the starter project [available here](http://rpf.io/p/en/rpi-scratch-physcomp1-get){:target="_blank"}.
+Download and open the starter project [available here](http://rpf.io/p/en/scratch-led-game-get){:target="_blank"}.
 
 --- /task ---
 
@@ -37,9 +37,9 @@ Using the `Simple Electronics`{:class="block3extensions"} extension, add the fol
 when green flag clicked
 forever
 if <[0] < (dist) > then
-  + turn LED (21 v) [on v] ::led extension
++turn LED (21 v) [on v] ::led extension
 else
-  + turn LED (21 v) [off v] ::led extension
++turn LED (21 v) [off v] ::led extension
 end
 ```
 
