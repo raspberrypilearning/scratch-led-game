@@ -18,7 +18,7 @@ If you use a pin other than Pin 21, make sure that you change the number **every
 
 --- task ---
 
-Download and open the starter project [available here](http://rpf.io/p/en/scratch-led-game-get){:target="_blank"}.
+Download and open the starter project [available here](https://rpf.io/p/en/scratch-led-game-get){:target="_blank"}.
 
 --- /task ---
 
