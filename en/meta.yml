@@ -2,17 +2,20 @@ title: An LED game
 hero_image: images/banner.png
 description: Use an LED to help find the hedgehog
 version: 4
-listed: false
+listed: true
 copyedit: true
 last_tested: "2021-02-25"
 steps:
   - title: Introduction
   - title: Test your circuit
   - title: Code your circuit
-  - title: Reflection
+    completion: engaged  
+  - title: Reflection  
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion: internal      
   - title: What next?
+    completion: external  
