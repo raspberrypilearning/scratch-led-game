@@ -11,11 +11,12 @@ steps:
   - title: Code your circuit
     completion: engaged
     completion: internal
-  - title: Reflection  
+  - title: Reflection
+    completion: external  
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3      
   - title: What next?
-    completion: external  
+
