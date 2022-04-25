@@ -1,4 +1,4 @@
-## Upgrade your project - Explore
+## Upgrade your project
 
 Now, you can add another LED to show when you are moving in the wrong direction. You will need to connect another LED bulb to your Raspberry Pi using a different numbered pin and another ground pin.
 
