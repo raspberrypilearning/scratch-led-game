@@ -21,7 +21,7 @@ else
 end
 ```
 
-The script works out how far away from the hedgehog the player currently is, and checks that against the last distance it calculated. If the distance is smaller, it turns the LED on. Swap over the two `on` and `off` settings in your second script so it looks like this:
+The script works out how far away from the hedgehog the player currently is, and checks that against the last distance it calculated. If the distance is smaller, it turns the LED on. Swap over the two `on`{:class="block3extensions"} and `off`{:class="block3extensions"} settings in your second script so it looks like this:
 
 ```blocks3
 when green flag clicked
