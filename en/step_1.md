@@ -25,7 +25,7 @@ title: What you will need
 ### Hardware
 
 + A Raspberry Pi computer
-+ 3x F-F jumper cables
++ 3x S-S jumper cables
 + an LED
 + a resistor (the lower resistance, the better!)
 
