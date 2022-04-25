@@ -6,7 +6,7 @@ In this project, you'll take your first step in using the Raspberry Pi's GPIO pi
 You will:
 + Explore electronic circuits and what they are
 + Connect an LED to your Raspberry Pi to make a circuit
-+ Use a `turn LED on`{:class="block3extension"} 
++ Use a `turn LED on`{:class="block3extensions"} to light and turn off an LED 
 
 
 In order to complete this project you will need:
