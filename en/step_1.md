@@ -22,7 +22,6 @@ In order to complete this project you will need:
 + Scratch 3 Desktop - **This project can not be completed using the online Scratch 3 editor**, and must be completed using a Raspberry Pi with the desktop version installed.
 
 --- no-print ---
---- task ---
 
 ### Try it
 View a 'virtual' version of the finished Physical Computing Project. Move your character around the screen using the arrow keys. When you are close to the hedgehog, the LED will appear on the screen.
