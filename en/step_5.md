@@ -3,7 +3,7 @@
 Now, you can add another LED to show when you are moving in the wrong direction. You will need to connect another LED bulb to your Raspberry Pi using a different numbered pin and another ground pin.
 
 
-**Tip:** Make sure you remember which numbered GPIO pin you connect the long led of your LED to - you'll need to use it in your code!
+**Tip:** Make sure you remember which numbered GPIO pin you connect the long leg of your LED to - you'll need to use it in your code!
 
 Once you have connected the LED to your Raspberry Pi, right-click the script on the Player sprite which calculates the distance to the hedgehog, and duplicate it so there are two in your workspace.
 
