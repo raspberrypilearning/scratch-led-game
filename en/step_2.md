@@ -4,10 +4,14 @@ In this step, you will connect an LED and resistor to the Raspberry Pi's GPIO pi
 
 GPIO stands for **G**eneral **P**urpose **I**nput/**O**utput. GPIO pins allow you to create simple machines by sending a small electrical signal out of a pin, down a wire, through an output or input, and back into a ground pin on the Raspberry Pi to create a circuit. The circuits you make can be programmed and controlled by you, through programs written using Scratch!
 
---- task ---
-Your jumper wires should all have hollow 'F' ends that fit over the pins. 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+The jumper cables we use for prototyping have what are called **dupont connectors** on the ends of them to make it easy to create circuits and connect components. These connectors come in two main types: **Pin** and **Socket**. **Pin** connectors are so called because they have a small metal pin sticking out, while **socket** connectors have a small port that accepts a pin to make a connection. We sometimes refer to cables with two socket ends as S-S, while a cable with one pin and one socket end would be a P-S cable. Can you guess what type has a pin on each end?
+</p>
 
-Connect a jumper wire to Pin 1 (make sure it's an F-F wire). Pin 1 is always on and provides 3 V of power to whatever you connect to it.  
+--- task ---
+Your jumper wires should all have hollow 'S' ends that fit over the pins of your Raspberry Pi. 
+
+Connect a jumper wire to Pin 1 (make sure it's a P-P wire). Pin 1 is always on and provides 3 V of power to whatever you connect to it.  
 
 ![Circuit diagram of a jumper wire connected to 3V3 on a Raspberry Pi.](images/Pi_jumper_Test1.png)
 
