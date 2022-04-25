@@ -1,13 +1,30 @@
 ## Introduction
 
+
 In this project, you'll take your first step in using the Raspberry Pi's GPIO pins to make machines! You'll be connecting wires and lights to your Pi to create simple electrical circuits, then linking it up to a computer game so that you can find the hidden hedgehog!
 
+You will:
++ Explore electronic circuits and what they are
++ Connect an LED to your Raspberry Pi to make a circuit
++ Use a `turn LED on`{:class="block3extension"} 
 
 
-### What you will make
+In order to complete this project you will need:
+### Hardware
+
++ A Raspberry Pi computer
++ 3x Pin-Pin jumper cables
++ an LED
++ a resistor (the lower resistance, the better!)
+
+### Software
+
++ Scratch 3 Desktop - **This project can not be completed using the online Scratch 3 editor**, and must be completed using a Raspberry Pi with the desktop version installed.
 
 --- no-print ---
-View a 'virtual' version of the finished Physical Computing Project. Move your character around the screen using the arrow keys. When you are close to the hedgehog, the LED will appear.
+
+### Try it
+View a 'virtual' version of the finished Physical Computing Project. Move your character around the screen using the arrow keys. When you are close to the hedgehog, the LED will appear on the screen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/492829675/?autostart=false" frameborder="0"></iframe>
@@ -17,45 +34,3 @@ View a 'virtual' version of the finished Physical Computing Project. Move your c
 --- print-only ---
 ![Complete project](images/showcase_static.png)
 --- /print-only ---
-
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ A Raspberry Pi computer
-+ 3x F-F jumper cables
-+ an LED
-+ a resistor (the lower resistance, the better!)
-
-### Software
-
-+ Scratch 3 Desktop - This project can not be completed using the online Scratch editor, and must be completed using a Raspberry Pi with the desktop version installed.
-
-### Downloads
-
-+ Download the starter project [available here](https://rpf.io/p/en/scratch-led-game-get){:target="_blank"} 
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Connecting a simple circuit to your Raspberry Pi
-+ How to use an LED with the Raspberry Pi and Scratch
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/scratch-led-game-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/scratch-led-game/print){:target="_blank"}.
-
---- /collapse ---
