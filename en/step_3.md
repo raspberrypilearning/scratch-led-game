@@ -20,6 +20,26 @@ If you use a pin other than Pin 21, make sure that you change the number **every
 
 Download and open the starter project [available here](https://rpf.io/p/en/scratch-led-game-get){:target="_blank"}.
 
+--- collapse ---
+---
+title: Opening a downloaded Scratch 3 Desktop project
+---
+
+Once you have downloaded the zip file from the link above, open your file manager and navigate to the **Downloads** folder.
+
+Find the file you just downloaded. It will end in `.zip`.
+
+Right click on the file and choose 'Extract files'. Extract them to your downloads folder.
+
+In Scratch 3 Desktop, click the `File` menu and choose `Load from your computer`.
+
+Navigate to your downloads folder again and select the file `scratch-physcomp1.sb3`. 
+
+Click `OK` or press `Enter`.
+
+
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
