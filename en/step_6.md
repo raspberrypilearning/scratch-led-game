@@ -7,7 +7,7 @@ If you are following the Scratch Physical Computing pathway, you could try the [
 Here you can see a home made joystick controller being used to drive the Hunt the Hedgehog game!
 
 GPIO Joystick:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TpzXzNH8Boo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T2YK9HcmJ_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 --- /no-print ---
 
