@@ -13,7 +13,7 @@ In order to complete this project you will need:
 ### Hardware
 
 + A Raspberry Pi computer
-+ 3x Pin-Pin jumper cables
++ 3 x socket to socket jumper cables
 + an LED
 + a resistor (the lower resistance, the better!)
 
