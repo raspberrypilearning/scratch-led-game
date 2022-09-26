@@ -1,13 +1,11 @@
-## Introduction
+## You will make
 
-
-In this project, you'll take your first step in using the Raspberry Pi's GPIO pins to make machines! You'll be connecting wires and lights to your Pi to create simple electrical circuits, then linking it up to a computer game so that you can find the hidden hedgehog!
+Use a circuit to find the hidden hedgehog!
 
 You will:
 + Explore electronic circuits and what they are
 + Connect an LED to your Raspberry Pi to make a circuit
 + Use a `turn LED on`{:class="block3extensions"} block to light and turn off an LED 
-
 
 In order to complete this project you will need:
 ### Hardware
@@ -23,7 +21,7 @@ In order to complete this project you will need:
 
 --- no-print ---
 
-### Try it
+### Play ▶️
 View a 'virtual' version of the finished Physical Computing Project. Move your character around the screen using the arrow keys. When you are close to the hedgehog, the LED will appear on the screen.
 
 <div class="scratch-preview">

@@ -5,21 +5,21 @@ description: Use an LED to help find the hedgehog
 version: 4
 listed: true
 copyedit: true
-last_tested: '2021-02-25'
+last_tested: "2021-02-25"
 steps:
-- title: Introduction
-- title: Test your circuit
-- title: Code your circuit
-  completion:
-  - engaged
-  - internal
-- title: Reflection
-  knowledge_quiz:
-    path: quiz1
-    version: 1
-    questions: 3
-    passing_score: 3
-  completion:
-  - external
-- title: Upgrade your project
-- title: What next?
+  - title: You will make
+  - title: Test your circuit
+  - title: Code your circuit
+    completion:
+      - engaged
+      - internal
+  - title: Quick quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Upgrade your project
+  - title: What next?
