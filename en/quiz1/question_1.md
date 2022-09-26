@@ -1,6 +1,10 @@
-## Reflection
+## Quick quiz
 
-You have learned a lot! Answer the questions below to reflect on what you've learned.
+Answer the three questions. There are hints to guide you to the correct answer.
+
+When you have answered each question, click on **Check my answer**.
+
+Have fun!
 
 --- question ---
 
