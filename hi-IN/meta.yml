@@ -1,0 +1,33 @@
+---
+title: An LED game
+hero_image: images/banner.png
+description: Use an LED to help find the hedgehog
+meta_title: Raspberry Pi Projects | Scratch | LED Game
+meta_description: The first Raspberry Pi project in the Physical computing with Scratch path. Follow step-by-step instructions and use a circuit to find the hidden hedgehog.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-02-25"
+steps:
+  - 
+    title: You will make
+  - 
+    title: Test your circuit
+  - 
+    title: Code your circuit
+    completion:
+      - engaged
+      - internal
+  - 
+    title: Quick quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: Upgrade your project
+  - 
+    title: What next?
