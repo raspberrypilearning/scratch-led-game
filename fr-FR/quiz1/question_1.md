@@ -1,36 +1,36 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Question 1 sur 3
 ---
 
-When connecting an LED and a resistor to your Raspberry Pi, it is important to test that your circuit is working correctly. How do you do this?
+Lorsque tu connectes une LED et une résistance à ton Raspberry Pi, il est important de tester que ton circuit fonctionne correctement. Comment tu fais ça ?
 
 --- choices ---
 
-- ( ) Connect the long leg of the LED to the GND pin and the short leg to the 3V3 pin with a resistor in between
+- ( ) Connecte la patte longue de la LED à la broche GND et la patte courte à la broche 3V3 avec une résistance entre les deux.
 
-  --- feedback --- Current always flows from a 3V3 pin to GND. LEDs only work *one way*. --- /feedback ---
+  --- feedback --- Le courant circule toujours d'une broche 3V3 vers GND. Les LED ne fonctionnent que *dans un sens*. --- /feedback ---
 
-- (x) Connect the long leg of the LED to the 3V3 pin and the short leg to a GND pin, with a resistor in between
+- (x) Connecte la patte longue de la LED à la broche 3V3 et la patte courte à une broche GND, avec une résistance entre les deux.
 
-  --- feedback --- Yes, current will flow from the 3V3 pin, through the resistor and then to the GND pin --- /feedback ---
+  --- feedback --- Oui, le courant circulera de la broche 3V3, à travers la résistance, puis à la broche GND --- /feedback ---
 
-- ( ) Connect the long leg of the LED to a numbered pin and the short leg to the GND pin with a resistor in between
+- ( ) Connecte la patte longue de la LED à une broche numérotée et la patte courte à la broche GND avec une résistance entre deux
 
-  --- feedback --- Current always flows from a 3V3 pin to GND. LEDs only work *one way*. --- /feedback ---
+  --- feedback --- Le courant circule toujours d'une broche 3V3 vers GND. Les LED ne fonctionnent que *dans un sens*. --- /feedback ---
 
-- ( ) Connect the long leg of the LED to a numbered pin and the short leg to the 3V3 pin with a resistor in between
+- ( ) Connecte la patte longue de la LED à une broche numérotée et la patte courte à la broche 3V3 avec une résistance entre deux
 
-  --- feedback --- Current always flows from a 3V3 pin to GND. LEDs only work *one way*. --- /feedback ---
+  --- feedback --- Le courant circule toujours d'une broche 3V3 vers GND. Les LED ne fonctionnent que *dans un sens*. --- /feedback ---
 
 --- /choices ---
 
