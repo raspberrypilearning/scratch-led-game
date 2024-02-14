@@ -1,28 +1,28 @@
-## You will make
+## Ce que tu vas faire
 
-Use a circuit to find the hidden hedgehog!
+Utiliser un circuit pour trouver le hérisson caché !
 
-You will:
-+ Explore electronic circuits and what they are
-+ Connect an LED to your Raspberry Pi to make a circuit
-+ Use a `turn LED on`{:class="block3extensions"} block to light and turn off an LED
+Tu vas :
++ Explorer les circuits électroniques et ce qu'ils sont
++ Connecter une LED à ton Raspberry Pi pour faire un circuit
++ Utiliser un bloc `Turn LED on`{:class="block3extensions"} pour allumer et éteindre une LED
 
-In order to complete this project you will need:
-### Hardware
+Pour mener à bien ce projet, tu auras besoin de :
+### Matériel informatique
 
-+ A Raspberry Pi computer
-+ 3 x socket to socket jumper cables
-+ an LED
-+ a resistor (the lower resistance, the better!)
++ Un ordinateur Raspberry Pi
++ 3 x fils de liaison prise-prise
++ une LED
++ une résistance (plus la résistance est faible, mieux c'est !)
 
-### Software
+### Logiciel
 
-+ Scratch 3 Desktop - **This project can not be completed using the online Scratch 3 editor**, and must be completed using a Raspberry Pi with the desktop version installed.
++ Scratch 3 Desktop : **ce projet ne peut pas être réalisé à l'aide de l'éditeur Scratch 3 en ligne**, il doit être réalisé à l'aide d'un Raspberry Pi avec la version de bureau installée.
 
 --- no-print ---
 
-### Play ▶️
-View a 'virtual' version of the finished Physical Computing Project. Move your character around the screen using the arrow keys. When you are close to the hedgehog, the LED will appear on the screen.
+### Joue ▶️
+Voir une version « virtuelle » du projet système interactif terminé. Déplace ton personnage sur l'écran en utilisant les touches fléchées. Lorsque tu es proche du hérisson, la LED apparaîtra à l'écran.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/492829675/?autostart=false" frameborder="0"></iframe>
