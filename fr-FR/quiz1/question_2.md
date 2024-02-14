@@ -1,32 +1,32 @@
-## Reflection
+## Réflexion
 
-You have learned a lot! Answer the questions below to reflect on what you've learned.
+Tu as appris beaucoup de choses ! Réponds aux questions ci-dessous pour réfléchir à ce que tu as appris.
 
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Question 2 sur 3
 ---
 
-Which Scratch extension did you use to control your LED in this project?
+Quelle extension Scratch as-tu utilisée pour contrôler ta LED dans ce projet ?
 
 --- choices ---
 
 - (x) Raspberry Pi Simple Electronics
 
-  --- feedback --- Yes! This extension is the simplest one for using GPIO quickly. --- /feedback ---
+  --- feedback --- Oui ! Cette extension est la plus simple pour utiliser rapidement GPIO. --- /feedback ---
 
 - ( ) Raspberry Pi GPIO
 
-  --- feedback --- No, we didn't use this one. While this is a good extension for electronics, we didn't use this one today. GPIO is a little more tricky to use, but it allows lots of options when coding! --- /feedback ---
+  --- feedback --- Non, nous n'avons pas utilisé celle-ci. Bien qu'il s'agisse d'une bonne extension pour l'électronique, nous ne l'avons pas utilisée aujourd'hui. GPIO est un peu plus difficile à utiliser, mais elle offre de nombreuses possibilités de codage ! --- /feedback ---
 
-- ( ) Raspberry Pi SenseHAT
+- ( ) Raspberry Pi Sense HAT
 
-  --- feedback --- No, we didn't use this one. This is an extension specifically for use with the SenseHAT add-on like the one on board the Space Station (which you can use with the AstroPi competition)! --- /feedback ---
+  --- feedback --- Non, nous n'avons pas utilisé celle-ci. Il s'agit d'une extension spécifiquement destinée à être utilisée avec le module SenseHAT, comme celui qui se trouve à bord de la station spatiale (que tu peux utiliser avec le concours AstroPi) ! --- /feedback ---
 
 - ( ) MakeyMakey
 
-  --- feedback --- No, we didn't use this one. This extension is used specifically with the MakeyMakey, a fun gadget that helps you create amazing inventions! --- /feedback ---
+  --- feedback --- Non, nous n'avons pas utilisé celle-ci. Cette extension est utilisée spécifiquement avec MakeyMakey, un gadget amusant qui t'aide à créer des inventions étonnantes ! --- /feedback ---
 
 --- /choices ---
 
