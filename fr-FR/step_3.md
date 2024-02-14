@@ -1,40 +1,40 @@
-## Code your circuit
+## Coder ton circuit
 
-In this step, you will connect your completed circuit to an output pin on the Raspberry Pi and control it using the `Simple Electronics`{:class="block3extensions"} extension.
+Dans cette étape, tu connecteras ton circuit terminé à une broche de sortie sur le Raspberry Pi et le contrôleras en utilisant l'extension `Simple Electronics`{:class="block3extensions"}.
 
-Currently, your circuit is tested and working, and your LED is on; but you want it to light up when something happens in your Scratch program.
+Actuellement, ton circuit est testé et fonctionnel, et ta LED est allumée ; mais tu veux qu'elle s'allume quand quelque chose se passe dans ton programme Scratch.
 
-To do that, you need to connect your LED circuit to an output pin on the Raspberry Pi.
+Pour faire cela, tu dois connecter ton circuit LED à une broche de sortie sur le Raspberry Pi.
 
---- task --- Take the jumper wire off of Pin 1 and attach it to any other numbered pin. In this example, I’ve used Pin 21 (because it’s easy to get to) but you can use any numbered general purpose (GP) pin on your Raspberry Pi.
+--- task --- Retire le fil de liaison de la broche 1 et fixe-le à n'importe quel autre broche numérotée. Dans cet exemple, j'ai utilisé la broche 21 (car elle est facile d'accès), mais tu peux utiliser n'importe quelle broche numérotée à usage général (GP) sur ton Raspberry Pi.
 
 
-![Circuit diagram of a jumper wire with a resistor and LED wired to 3V3 on a Raspberry Pi.](images/Pi_21_Complete.png)
+![Schéma de circuit d'un fil de liaison avec une résistance et une LED câblées sur 3V3 sur un Raspberry Pi.](images/Pi_21_Complete.png)
 
-If you use a pin other than Pin 21, make sure that you change the number **everywhere** it appears in your code.
+Si tu utilises une broche autre que la broche 21, assure-toi de changer le numéro **partout** où il apparaît dans ton code.
 
 --- /task ---
 
 --- task ---
 
-Download and open the starter project [available here](https://rpf.io/p/en/scratch-led-game-get){:target="_blank"}.
+Télécharge et ouvre le projet de démarrage [disponible ici](https://rpf.io/p/en/scratch-led-game-get){:target="_blank"}.
 
 --- collapse ---
 ---
-title: Opening a downloaded Scratch 3 Desktop project
+title: Ouverture d'un projet Scratch 3 Desktop téléchargé
 ---
 
-Once you have downloaded the zip file from the link above, open your file manager and navigate to the **Downloads** folder.
+Une fois que tu as téléchargé le fichier zip à partir du lien ci-dessus, ouvre ton gestionnaire de fichiers et accède au dossier **Téléchargements**.
 
-Find the file you just downloaded. It will end in `.zip`.
+Trouve le fichier que tu viens de télécharger. Il se terminera par `.zip`.
 
-Right click on the file and choose 'Extract files'. Extract them to your downloads folder.
+Fais un clic droit sur le fichier et choisis « Extraire les fichiers ». Extrais-les dans ton dossier de téléchargements.
 
-In Scratch 3 Desktop, click the `File` menu and choose `Load from your computer`.
+Dans Scratch 3 Desktop, clique sur le menu `Fichier` et choisis `Importer depuis votre ordinateur`.
 
-Navigate to your downloads folder again and select the file `scratch-physcomp1.sb3`.
+Navigue à nouveau vers ton dossier de téléchargements et sélectionne le fichier `scratch-physcomp1.sb3`.
 
-Click `OK` or press `Enter`.
+Clique sur `OK` ou appuie sur `Enter`.
 
 
 --- /collapse ---
@@ -43,13 +43,13 @@ Click `OK` or press `Enter`.
 
 --- task ---
 
-Make sure you have the Stage selected and you can see the following scripts: ![Screenshot of scripts. When green flag clicked.](images/stage_code.png)
+Assure-toi que la scène est sélectionnée et que tu peux voir les scripts suivants : ![Capture d'écran des scripts. Quand le drapeau vert est cliqué.](images/stage_code.png)
 
 --- /task ---
 
 --- task ---
 
-Using the `Simple Electronics`{:class="block3extensions"} extension, add the following blocks into the `if`{:class="block3control"} block so that if `distance`{:class="block3variables"} is less than `10`, the LED comes on — `else`{:class="block3control"} it turns off.
+En utilisant l'extension `Simple Electronics`{:class="block3extensions"}, ajoute les blocs suivants dans le bloc `si`{:class="block3control"} de sorte que si `distance`{:class="block3variables"} est inférieur à `10`, la LED s'allume, `sinon`{:class="block3control"} elle s'éteint.
 
 ```blocks3
 when green flag clicked
@@ -65,7 +65,7 @@ end
 
 --- task ---
 
-Now click on the green flag, and see if you can hunt the hedgehog!
+Maintenant, clique sur le drapeau vert, et vois si tu peux chasser le hérisson !
 
 --- /task ---
 
