@@ -1,44 +1,44 @@
-## Test your circuit
+## Tester ton circuit
 
-In this step, you will connect an LED and resistor to the Raspberry Pi's GPIO pins to test your circuit.
+Dans cette étape, tu vas connecter une LED et une résistance aux broches GPIO du Raspberry Pi pour tester ton circuit.
 
-GPIO stands for **G**eneral **P**urpose **I**nput/**O**utput. GPIO pins allow you to create simple machines by sending a small electrical signal out of a pin, down a wire, through an output or input, and back into a ground pin on the Raspberry Pi to create a circuit. The circuits you make can be programmed and controlled by you, through programs written using Scratch!
+GPIO signifie **G**eneral **P**urpose **I**nput/**O**utput. Les broches GPIO te permettent de créer des machines simples en envoyant un petit signal électrique à partir d'une broche, sur un fil, par une sortie ou une entrée, et retourne dans une broche de terre sur le Raspberry Pi pour créer un circuit. Tu peux programmer et contrôler les circuits que tu crées grâce à des programmes écrits avec Scratch !
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-The jumper cables we use for prototyping have what are called **dupont connectors** on the ends of them to make it easy to create circuits and connect components. These connectors come in two main types: **Pin** and **Socket**. **Pin** connectors are so called because they have a small metal pin sticking out, while **socket** connectors have a small port that accepts a pin to make a connection.
+Les câbles de liaison que nous utilisons pour le prototypage ont ce que l'on appelle des **connecteurs dupont** aux extrémités de ces câbles pour faciliter la création de circuits et de composants de connexion. Ces connecteurs sont fournis en deux types principaux : **Broche** et **Prise**. Les connecteurs **Broche** sont appelés ainsi parce qu'ils ont une petite broche en métal, alors que les connecteurs **Prise** ont un petit port qui accepte une broche pour faire une connexion.
 </p>
 
---- task --- Your jumper wires should all have hollow socket ends that fit over the pins of your Raspberry Pi.
+--- task --- Tes fils de liaison devraient tous avoir des extrémités de support creux qui correspondent aux broches de ton Raspberry Pi.
 
-Connect a jumper wire to Pin 1. Pin 1 is always on and provides 3.3 volts to whatever you connect to it.
+Connecte un fil de liaison à la broche 1. La broche 1 est toujours allumée et fournit 3,3 volts à tout ce que tu y connectes.
 
-![Circuit diagram of a jumper wire connected to 3V3 on a Raspberry Pi.](images/Pi_jumper_Test1.png)
-
---- /task ---
-
---- task --- Insert the **long leg** of your LED into the other end of this jumper wire. Take a second socket to socket jumper wire and attach it to the **short leg** of your LED.
-
-![Circuit diagram of a jumper wire with an LED wired in series to 3V3 on a Raspberry Pi.](images/Pi_LED_test2.png)
+![Schéma de circuit d'un fil de liaison connecté à 3V3 sur un Raspberry Pi.](images/Pi_jumper_Test1.png)
 
 --- /task ---
 
---- task --- Take a resistor and insert one of its legs into the free end of the second jumper wire. Insert the other leg into another socket to socket jumper wire. Adding the resistor to your circuit reduces the **electrical current** passing through the circuit; this will protect the LED from burning out.
+--- task --- Insère la **longue patte** de ta LED dans l'autre extrémité de ce fil de liaison. Prends un deuxième fil de liaison prise - prise et fixe-le à la **patte courte** de ta LED.
 
-![Circuit diagram of a jumper wire with a resistor and LED wired in series to 3V3 on a Raspberry Pi.](images/Pi_resistor_test3.png) --- /task ---
+![Schéma de circuit d'un fil de liaison avec une LED câblée en série sur 3V3 sur un Raspberry Pi.](images/Pi_LED_test2.png)
 
---- task --- Now, connect your circuit back to Pin 6 using the loose end of the socket to socket jumper wire. As soon as you close the circuit by connecting it back to your ground pin, your LED should light up!
+--- /task ---
 
-![Circuit diagram of a completed circuit with a jumper wire with a resistor and LED wired in series to 3V3 on a Raspberry Pi.](images/Pi_1_complete.png)
+--- task --- Prends une résistance et insère l'une de ses pattes dans l'extrémité libre du second fil de liaison. Insère l'autre patte dans un autre fil de liaison prise - prise. L'ajout de la résistance à ton circuit réduit le **courant électrique** traversant le circuit ; cela empêchera la LED de griller.
+
+![Schéma de circuit d'un fil de liaison avec une résistance et une LED câblée en série sur 3V3 sur un Raspberry Pi.](images/Pi_resistor_test3.png) --- /task ---
+
+--- task --- Maintenant, connecte ton circuit à la broche 6 en utilisant la prise libre du fil de liaison. Dès que tu fermes le circuit en le connectant à ta broche GND, ta LED devrait s'allumer !
+
+![Schéma de circuit d'un circuit terminé avec un fil de liaison avec une résistance et une LED câblée en série à 3V3 sur un Raspberry Pi.](images/Pi_1_complete.png)
 
 --- collapse ---
 ---
-title: Help – My LED isn't working!
+title: À l'aide, ma LED ne fonctionne pas !
 ---
-If your LED isn't lighting up, make sure you have the **long leg** connected to the output pin (Pin 1) and the **short leg** connected to the ground pin (Pin 6). LEDs only work one way round!
+Si ta LED ne s'allume pas, assure-toi que la **patte longue** est connectée à la broche de sortie (broche 1) et la **patte courte** est connectée à la broche de masse (broche 6). Les LED ne fonctionnent que dans un sens !
 
-If your LED **still** isn't lighting up, check all your connections are secure and fit properly, then swap your LED for another one if it still won't work (this one might be broken). --- /collapse ---
+Si ta LED **ne s'allume toujours pas**, vérifie que toutes tes connexions sont bien fixées et s'ajustent correctement, puis remplace ta LED par une autre si elle ne fonctionne toujours pas (celle-ci est peut-être cassée). --- /collapse ---
 
 --- /task ---
 
 
-In the next step, you will swap your working circuit to a numbered control pin so that you can drive it using code!
+Dans l'étape suivante, tu remplaceras ton circuit de travail par une broche de commande numérotée afin de pouvoir le piloter à l'aide de code !
