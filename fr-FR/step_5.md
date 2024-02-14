@@ -1,15 +1,15 @@
-## Upgrade your project
+## Améliorer ton projet
 
-Now, you can add another LED to show when you are moving in the wrong direction. You will need to connect another LED bulb to your Raspberry Pi using a different numbered pin and another ground pin.
+Maintenant, tu peux ajouter une autre LED pour indiquer lorsque tu te déplaces dans la mauvaise direction. Tu devras connecter une autre ampoule LED à ton Raspberry Pi en utilisant une broche numérotée différente et une autre broche GND.
 
 
-**Tip:** Make sure you remember which numbered GPIO pin you connect the long leg of your LED to - you'll need to use it in your code!
+**Astuce :** assure-toi de te rappeler à quelle broche GPIO numérotée tu connectes la longue patte de ta LED, tu devras l'utiliser dans ton code !
 
-Once you have connected the LED to your Raspberry Pi, right-click the script on the Player sprite which calculates the distance to the hedgehog, and duplicate it so there are two in your workspace.
+Une fois que tu as connecté la LED à ton Raspberry Pi, fais un clic droit sur le script du sprite Player qui calcule la distance jusqu'au hérisson, et duplique-le pour qu'il y en ait deux dans ton espace de travail.
 
-In the new script, change the number in the `turn LED (21 v) [on v]`{:class="block3extensions"} and `turn LED (21 v) [off v]`{:class="block3extensions"} blocks to the new number for your second LED.
+Dans le nouveau script, change le numéro dans les blocs `turn LED (21 v) [on v]`{:class="block3extensions"} et `turn LED (21 v) [off v]`{:class="block3extensions" } avec le nouveau numéro de ta deuxième LED.
 
-In this example I have used pin 3:
+Dans cet exemple, j'ai utilisé la broche 3 :
 
 ```blocks3
 when green flag clicked
@@ -21,7 +21,7 @@ else
 end
 ```
 
-The script works out how far away from the hedgehog the player currently is, and checks that against the last distance it calculated. If the distance is smaller, it turns the LED on. Swap over the two `on`{:class="block3extensions"} and `off`{:class="block3extensions"} settings in your second script so it looks like this:
+Le script détermine à quelle distance du hérisson se trouve actuellement le joueur et la compare à la dernière distance calculée. Si la distance est plus petite, la LED s'allume. Inverse les deux paramètres `on`{:class="block3extensions"} et `off`{:class="block3extensions"} dans ton second script, donc il ressemble à ceci :
 
 ```blocks3
 when green flag clicked
@@ -32,18 +32,18 @@ else
 +turn LED (3 v) [on v] ::led extension
 end
 ```
-And one light will come on when you get further from your goal.
+Et une lumière s’allumera lorsque tu t'éloigneras de ton objectif.
 
 --- collapse ---
 ---
-title: Completed project
+title: Le projet achevé
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
+Tu peux voir le [projet terminé ici](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
 
 --- /collapse ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the game or other sprites or backdrops, or set the colour effect and costumes of the player character. Maybe add another hidden sprite that activates another LED?
+Tu peux également « remixer » le projet pour apporter les modifications que tu souhaites. Tu peux ajouter des effets sonores au jeu ou à d'autres sprites ou arrière-plans, ou définir l'effet de couleur et les costumes du personnage du joueur. Peut-être ajouter un autre sprite caché qui active une autre LED ?
 
 
 --- save ---
