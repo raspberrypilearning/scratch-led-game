@@ -53,7 +53,7 @@ If your LED **still** isn't lighting up, check all your connections are secure a
 
 --- collapse ---
 ---
-Title: I want to know more
+title: I want to know more
 ---
 
 Adding the resistor to your circuit reduces the **electrical current** passing through the circuit; this will protect the LED from burning out. 
