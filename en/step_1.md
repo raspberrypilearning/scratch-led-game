@@ -1,23 +1,6 @@
 ## You will make
 
-Use a circuit to find the hidden hedgehog!
-
-You will:
-+ Explore electronic circuits and what they are
-+ Connect an LED to your Raspberry Pi to make a circuit
-+ Use a `turn LED on`{:class="block3extensions"} block to light and turn off an LED 
-
-In order to complete this project you will need:
-### Hardware
-
-+ A Raspberry Pi computer
-+ 3 x socket to socket jumper cables
-+ an LED
-+ a resistor (the lower resistance, the better!)
-
-### Software
-
-+ Scratch 3 Desktop - **This project can not be completed using the online Scratch 3 editor**, and must be completed using a Raspberry Pi with the desktop version installed.
+Create a game where the player must find the hidden hedgehog. The LED turns on when you are close to the hedgehog.
 
 --- no-print ---
 
@@ -32,3 +15,23 @@ View a 'virtual' version of the finished Physical Computing Project. Move your c
 --- print-only ---
 ![Complete project](images/showcase_static.png)
 --- /print-only ---
+
+
+--- collapse ---
+---
+title: You will need
+--- 
+
+### Hardware
+
++ A Raspberry Pi computer
++ 3 x socket to socket jumper cables
++ an LED
++ a resistor (the lower resistance, the better!)
+
+### Software
+
++ Scratch 3 Desktop - **This project can not be completed using the online Scratch 3 editor**, and must be completed using a Raspberry Pi with the desktop version installed.
+
+--- /collapse ---
+
