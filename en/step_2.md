@@ -33,7 +33,7 @@ Insert the other leg of the LED into another socket to socket jumper wire.
 --- /task ---
 
 --- task ---
-Now, connect the jumper wire to **Pin 6** as shown in the diagram.
+Now, connect the jumper wire to **Pin 6** as shown in the diagram, this is a **ground** pin.
 
 As soon as you close the circuit by connecting it back to your ground pin, your LED should light up! 
 

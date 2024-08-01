@@ -8,7 +8,7 @@ You have learned a lot! Answer the questions below to reflect on what you've lea
 legend: Question 3 of 3
 ---
 
-"You want your LED to come on when your sprites are touching, but go off when they are not. 
+You want your LED to come on when your sprites are touching, but go off when they are not. 
 
 What blocks would you add to this script to make it work that way?
 
@@ -19,7 +19,8 @@ if <(touching[Sprite2]) > then
   ...
 else
   ...
-end```
+end
+```
 
 --- choices ---
 
