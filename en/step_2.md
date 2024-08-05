@@ -9,6 +9,8 @@ In this step, you will connect an LED to your Raspberry Pi. You will need:
 
 
 --- task ---
+Switch on your Raspberry Pi.
+
 Connect a **jumper wire** to the pin on your Raspberry Pi shown in the diagram. This is Pin 1 - it provides power.
 
 ![Circuit diagram of a jumper wire connected to 3V3 on a Raspberry Pi.](images/Pi_jumper_Test1.png)

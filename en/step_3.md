@@ -11,9 +11,23 @@ Take the jumper wire off Pin 1 and attach it to **Pin 21** instead. Pin 21 is a 
 
 --- task ---
 
-Switch on your Raspberry Pi. 
-
 On the Raspberry Pi, download and open the [starter project](https://rpf.io/p/en/scratch-led-game-get){:target="_blank"}.
+
+
+--- collapse ---
+---
+title: Installing Scratch 3 desktop
+---
+
+Click on the Raspberry Pi logo, then **Preferences**, then **Recommended software**.
+
+![A Raspberry Pi menu with Preferens and then recommended software highlighted](images/preferences.png)
+
+Find **Scratch 3** in the list of software, tick the box and then click **Apply** to install it.
+
+![The option Scratch 3 is selected](images/scratch3.png)
+
+--- /collapse ---
 
 --- collapse ---
 ---

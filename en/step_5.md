@@ -7,7 +7,7 @@ Now, you can add another LED to show when you are moving in the wrong direction.
 
 Once you have connected the LED to your Raspberry Pi, right-click the script on the Player sprite which calculates the distance to the hedgehog, and duplicate it so there are two in your workspace.
 
-In the new script, change the number in the `turn LED (21 v) [on v]`{:class="block3extensions"} and `turn LED (21 v) [off v]`{:class="block3extensions"} blocks to the new number for your second LED.
+In the new script, change the number in the `turn LED (21) on`{:class="block3extensions"} and `turn LED (21) off v`{:class="block3extensions"} blocks to the new number for your second LED.
 
 In this example I have used pin 3:
 
