@@ -1,7 +1,3 @@
-## Reflection
-
-You have learned a lot! Answer the questions below to reflect on what you've learned.
-
 --- question ---
 
 ---
