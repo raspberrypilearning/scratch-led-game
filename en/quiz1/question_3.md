@@ -15,10 +15,10 @@ What blocks would you add to this script to make it work that way?
 ```blocks3
 when green flag clicked
 forever
-if <(touching[Sprite2]) > then
-  ...
+if <touching[Sprite2]> then
+  
 else
-  ...
+  
 end
 ```
 
