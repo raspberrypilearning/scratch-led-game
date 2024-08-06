@@ -67,7 +67,7 @@ else
 end
 ```
 
-If the distance to the hedgehog is less than `10`, the LED turns on — `else`{:class="block3control"} it turns off.
+If the distance to the hedgehog is less than it was before (ie. a number less than 0), the LED turns on — `else`{:class="block3control"} it turns off.
 
 --- /task ---
 
