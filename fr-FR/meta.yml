@@ -1,0 +1,33 @@
+---
+title: Un jeu LED
+hero_image: images/banner.png
+description: Utiliser une LED pour aider à trouver le hérisson
+meta_title: Projets Raspberry Pi | Scratch | Jeu LED
+meta_description: Le premier projet Raspberry Pi dans l'informatique physique avec le parcours Scratch. Suis les instructions étape par étape et utilise un circuit pour trouver le hérisson caché.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-02-25"
+steps:
+  - 
+    title: Ce que tu vas faire
+  - 
+    title: Tester ton circuit
+  - 
+    title: Coder ton circuit
+    completion:
+      - engaged
+      - internal
+  - 
+    title: Questionnaire rapide
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: Améliorer ton projet
+  - 
+    title: Et ensuite ?
