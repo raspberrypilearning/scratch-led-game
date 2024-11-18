@@ -15,13 +15,7 @@ steps:
     completion:
       - engaged
       - internal
-  - title: Quick quiz
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
+  - title: Add another LED
     completion:
       - external
-  - title: Upgrade your project
-  - title: What next?
+  - title: What can you do now?

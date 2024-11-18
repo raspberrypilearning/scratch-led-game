@@ -3,13 +3,12 @@
 In this step, you will connect an LED to your Raspberry Pi. You will need:
 
 - An LED
-- Three socket to socket jumper wires
-- A resistor
+- Three socket-to-socket jumper wires
+- A resistor (330Ω is best)
 - A Raspberry Pi
 
 
 --- task ---
-Switch on your Raspberry Pi.
 
 Connect a **jumper wire** to the pin on your Raspberry Pi shown in the diagram. This is Pin 1 - it provides power.
 
@@ -19,23 +18,33 @@ Connect a **jumper wire** to the pin on your Raspberry Pi shown in the diagram. 
 
 --- task ---
 Insert the **long leg** of your LED into the other end of this jumper wire. 
+--- /task ---
 
-Take a second socket to socket jumper wire and attach it to the **short leg** of your LED.
+--- task ---
 
+Take a second socket-to-socket jumper wire and attach it to the **short leg** of your LED. 
+
+It should look like this:
 ![Circuit diagram of a jumper wire with an LED wired in series to 3V3 on a Raspberry Pi.](images/Pi_LED_test2.png)
 
 --- /task ---
 
 --- task ---
+
 Take a resistor and insert one of its legs into the free end of the second jumper wire. 
 
-Insert the other leg of the LED into another socket to socket jumper wire. 
-
-![Circuit diagram of a jumper wire with a resistor and LED wired in series to 3V3 on a Raspberry Pi.](images/Pi_resistor_test3.png)
 --- /task ---
 
 --- task ---
-Now, connect the jumper wire to **Pin 6** as shown in the diagram, this is a **ground** pin.
+
+Insert the other leg of the LED into another socket-to-socket jumper wire:
+
+![Circuit diagram of a jumper wire with a resistor and LED wired in series to 3V3 on a Raspberry Pi.](images/Pi_resistor_test3.png)
+
+--- /task ---
+
+--- task ---
+Now, connect the loose jumper wire to **Pin 6** as shown in the diagram; this is a **ground** pin.
 
 As soon as you close the circuit by connecting it back to your ground pin, your LED should light up! 
 

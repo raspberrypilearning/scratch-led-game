@@ -1,6 +1,6 @@
 ## Code your circuit
 
-In this step, you will write Scratch code so that your LED lights up when the player is near the hedgehog.
+Write Scratch code so that your LED lights up when the player is near the hedgehog.
 
 --- task ---
 Take the jumper wire off Pin 1 and attach it to **Pin 21** instead. Pin 21 is a pin which can be controlled with Scratch code.
@@ -21,7 +21,7 @@ title: Installing Scratch 3 desktop
 
 Click on the Raspberry Pi logo, then **Preferences**, then **Recommended software**.
 
-![A Raspberry Pi menu with Preferens and then recommended software highlighted](images/preferences.png)
+![A Raspberry Pi menu with Preferences and then recommended software highlighted](images/preferences.png)
 
 Find **Scratch 3** in the list of software, tick the box and then click **Apply** to install it.
 
@@ -55,7 +55,13 @@ Click `OK` or press `Enter`.
 
 Make sure you have the **Stage** selected.
 
-Using the `Simple Electronics`{:class="block3extensions"} extension, add the following blocks into the `if`{:class="block3control"} block.
+![A section of the Scratch interface with a purple header labeled "Stage." Below, there is a small thumbnail image of a scenic forest background featuring trees, grass, and abstract green shapes.](images/choose-stage.png)
+
+--- /task ---
+
+--- task ---
+
+Using the `Simple Electronics`{:class="block3extensions"} extension from the blocks menu, add the following blocks into the `if`{:class="block3control"} block.
 
 ```blocks3
 when green flag clicked
