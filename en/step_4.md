@@ -12,12 +12,11 @@ Connect another LED bulb to your Raspberry Pi using a different numbered pin and
 
 --- task ---
 
-Once you have connected the LED to your Raspberry Pi, right-click the script on the Stage which calculates the distance to the hedgehog, and duplicate it so there are two in your workspace.
+Right-click the script on the Stage which calculates the distance to the hedgehog, and duplicate it so there are two in your workspace.
 
-![](images/duplicate-script.png)
+![The image shows a coding block interface, specifically for Scratch programming. The visible block is a "forever" loop that executes a conditional ("if-else") block. It includes broadcasting messages "LEDOn" and "LEDOff" based on a condition. A dropdown menu is displayed, providing the options "Duplicate," "Add Comment," and "Delete Block," likely for modifying the selected block. The context appears to be a user interacting with Scratch's block-based coding environment, focusing on controlling an LED's behavior.](images/duplicate-script.png)
 
 --- /task ---
-
 
 --- task ---
 

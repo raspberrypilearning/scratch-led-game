@@ -33,6 +33,8 @@ It should look like this:
 
 Take a resistor and insert one of its legs into the free end of the second jumper wire. 
 
+Adding the resistor to your circuit reduces the **electrical current** passing through the circuit; this will protect the LED from burning out. 
+
 --- /task ---
 
 --- task ---
@@ -64,10 +66,8 @@ If your LED **still** isn't lighting up, check all your connections are secure a
 
 --- collapse ---
 ---
-title: I want to know more
+title: I want to know more about GPIO
 ---
-
-Adding the resistor to your circuit reduces the **electrical current** passing through the circuit; this will protect the LED from burning out. 
 
 GPIO stands for **G**eneral **P**urpose **I**nput/**O**utput. GPIO pins allow you to create simple machines by sending a small electrical signal out of a pin, down a wire, through an output or input, and back into a ground pin on the Raspberry Pi to create a circuit. The circuits you make can be programmed and controlled by you, through programs written using Scratch!
 

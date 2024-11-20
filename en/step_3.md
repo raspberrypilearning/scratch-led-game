@@ -13,22 +13,6 @@ Take the jumper wire off Pin 1 and attach it to **Pin 21** instead. Pin 21 is a 
 
 On the Raspberry Pi, download and open the [starter project](https://rpf.io/p/en/scratch-led-game-get){:target="_blank"}.
 
-
---- collapse ---
----
-title: Installing Scratch 3 desktop
----
-
-Click on the Raspberry Pi logo, then **Preferences**, then **Recommended software**.
-
-![A Raspberry Pi menu with Preferences and then recommended software highlighted](images/preferences.png)
-
-Find **Scratch 3** in the list of software, tick the box and then click **Apply** to install it.
-
-![The option Scratch 3 is selected](images/scratch3.png)
-
---- /collapse ---
-
 --- collapse ---
 ---
 title: Opening a downloaded Scratch 3 Desktop project
@@ -45,7 +29,6 @@ In Scratch 3 Desktop, click the `File` menu and choose `Load from your computer`
 Navigate to your downloads folder again and select the file `scratch-physcomp1.sb3`. 
 
 Click `OK` or press `Enter`.
-
 
 --- /collapse ---
 
@@ -79,7 +62,7 @@ If the distance to the hedgehog is less than it was before (ie. a number less th
 
 --- task ---
 
-Now click on the green flag, and use the arrow keys and the LED to hunt the hedgehog!
+Click on the green flag. Use the arrow keys and the LED to hunt the hedgehog!
 
 --- /task ---
 
