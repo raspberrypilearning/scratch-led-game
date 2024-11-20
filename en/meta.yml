@@ -14,8 +14,10 @@ steps:
   - title: Code your circuit
     completion:
       - engaged
-      - internal
   - title: Add another LED
+    completion:
+      - internal
+  - title: Challenge
     completion:
       - external
   - title: What can you do now?
