@@ -23,7 +23,7 @@ View a 'virtual' version of the finished Physical Computing Project. Move your c
 + A Raspberry Pi computer
 + 3 x socket-to-socket jumper cables
 + an LED
-+ a resistor (the lower resistance, the better!)
++ a resistor (47-330Ω)
 
 ### Software
 

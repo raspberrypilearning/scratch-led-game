@@ -6,6 +6,10 @@ Add another LED to show when you are moving in the wrong direction.
 
 Connect another LED bulb to your Raspberry Pi using a different numbered pin and another ground pin.
 
+In this example Pin 20 has been used:
+
+![A Raspberry Pi 5 circuit board connected to two LEDs, one red and one green, using resistors and jumper wires. The red LED is connected to a GPIO pin via a resistor with black and red wires, while the green LED is connected similarly with purple and black wires. The layout shows the GPIO pins in use, with the LEDs wired in a basic circuit configuration for demonstration purposes. The board includes visible HDMI, USB, and Ethernet ports, labeled with "Raspberry Pi 5" and "HDMI" text.](images/extra_LED.png)
+
 --- /task ---
 
 **Tip:** Make sure you remember which numbered GPIO pin you connect the long leg of your LED to - you'll need to use it in your code!
@@ -22,15 +26,15 @@ Right-click the script on the Stage which calculates the distance to the hedgeho
 
 In the new script, change the number in the `turn LED (21) on`{:class="block3extensions"} and `turn LED (21) off v`{:class="block3extensions"} blocks to the new number for your second LED.
 
-In this example I have used pin 11:
+In this example pin 20 has been used:
 
 ```blocks3
 when green flag clicked
 forever
 if <[0] < (dist) > then
-+turn LED (11 v) [on v] ::led extension
++turn LED (20 v) [on v] ::led extension
 else
-+turn LED (11 v) [off v] ::led extension
++turn LED (20 v) [off v] ::led extension
 end
 ```
 
@@ -44,9 +48,9 @@ Swap over the two `on`{:class="block3extensions"} and `off`{:class="block3extens
 when green flag clicked
 forever
 if <[0] < (dist) > then
-+turn LED (11 v) [off v] ::led extension
++turn LED (20 v) [off v] ::led extension
 else
-+turn LED (11 v) [on v] ::led extension
++turn LED (20 v) [on v] ::led extension
 end
 ```
 

@@ -4,7 +4,7 @@ In this step, you will connect an LED to your Raspberry Pi. You will need:
 
 - An LED
 - Three socket-to-socket jumper wires
-- A resistor (330Ω is best)
+- A resistor (47Ω is best)
 - A Raspberry Pi
 
 
@@ -39,7 +39,7 @@ Adding the resistor to your circuit reduces the **electrical current** passing t
 
 --- task ---
 
-Insert the other leg of the LED into another socket-to-socket jumper wire:
+Insert the other leg of the resistor into another socket-to-socket jumper wire:
 
 ![Circuit diagram of a jumper wire with a resistor and LED wired in series to 3V3 on a Raspberry Pi.](images/Pi_resistor_test3.png)
 
