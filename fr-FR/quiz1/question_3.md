@@ -1,25 +1,22 @@
-## Réflexion
-
-Tu as appris beaucoup de choses ! Réponds aux questions ci-dessous pour réfléchir à ce que tu as appris.
-
 --- question ---
 
 ---
 legend: Question 3 sur 3
 ---
 
-"Tu veux que ta LED s'allume lorsque tes sprites se touchent, mais s'éteigne lorsqu'ils ne se touchent pas.
+You want your LED to come on when your sprites are touching, but go off when they are not.
 
 Quels blocs ajouterais-tu à ce script pour qu'il fonctionne de cette façon ?
 
-`blocks3
+```blocks3
 when green flag clicked
 forever
-if <(touching[Sprite2]) > then
-  ...
-sinon
-...
-fin`
+if <touching[Sprite2]> then
+
+else
+
+end
+```
 
 --- choices ---
 
