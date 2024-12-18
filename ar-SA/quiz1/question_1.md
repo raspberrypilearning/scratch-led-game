@@ -12,25 +12,25 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-When connecting an LED and a resistor to your Raspberry Pi, it is important to test that your circuit is working correctly. How do you do this?
+When connecting an LED to your Raspberry Pi, it is important to test that your circuit is working correctly. How do you do this?
 
 --- choices ---
 
-- ( ) Connect the long leg of the LED to the GND pin and the short leg to the 3V3 pin with a resistor in between
+- ( ) Connect the LED to a power pin and a ground pin, but don't use a resistor.
 
-  --- feedback --- Current always flows from a 3V3 pin to GND. LEDs only work *one way*. --- /feedback ---
+  --- feedback --- You should use a resistor to protect your LED. If you don't, it might shatter! --- /feedback ---
 
-- (x) Connect the long leg of the LED to the 3V3 pin and the short leg to a GND pin, with a resistor in between
+- (x) Connect the LED to a power pin and a ground pin, and use a resistor.
 
-  --- feedback --- Yes, current will flow from the 3V3 pin, through the resistor and then to the GND pin --- /feedback ---
+  --- feedback --- Yes, current will flow from the power pin, through the resistor and then to the ground pin. --- /feedback ---
 
-- ( ) Connect the long leg of the LED to a numbered pin and the short leg to the GND pin with a resistor in between
+- ( ) Connect the LED to any two pins and use a resistor.
 
-  --- feedback --- Current always flows from a 3V3 pin to GND. LEDs only work *one way*. --- /feedback ---
+  --- feedback --- This won't necessarily work, you must make sure you connect the LED to power and ground pins. --- /feedback ---
 
-- ( ) Connect the long leg of the LED to a numbered pin and the short leg to the 3V3 pin with a resistor in between
+- ( ) Connect a resistor between the two legs of the LED.
 
-  --- feedback --- Current always flows from a 3V3 pin to GND. LEDs only work *one way*. --- /feedback ---
+  --- feedback --- This won't do anything as you will have no power to your circuit. --- /feedback ---
 
 --- /choices ---
 
