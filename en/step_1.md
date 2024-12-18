@@ -13,7 +13,9 @@ View a 'virtual' version of the finished Physical Computing Project. Move your c
 --- /no-print ---
 
 --- print-only ---
+
 ![Complete project](images/showcase_static.png)
+
 --- /print-only ---
 
 ## You will need
