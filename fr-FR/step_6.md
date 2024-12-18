@@ -1,4 +1,4 @@
-## Et ensuite ?
+## What can you do now?
 
 Si tu suis le parcours Scratch Informatique physique, tu peux essayer le projet [Raspberry Pi et Scratch anti-stress](https://projects.raspberrypi.org/en/projects/rpi-stress-buster-with-scratch){:target="_blank"} dans lequel tu apprendras à utiliser les entrées électroniques avec Scratch !
 
@@ -7,7 +7,7 @@ Si tu suis le parcours Scratch Informatique physique, tu peux essayer le projet 
 Ici tu peux voir un joystick fait maison utilisé pour piloter le jeu Chasse le Hérisson !
 
 Joystick GPIO :
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T2YK9HcmJ_U" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/rZf6Y4S_XqU" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 --- /no-print ---
 
