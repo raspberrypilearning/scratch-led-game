@@ -12,7 +12,11 @@ Voir une version « virtuelle » du projet système interactif terminé. Dépl
 </div>
 --- /no-print ---
 
---- print-only --- ![Complete project](images/showcase_static.png) --- /print-only ---
+--- print-only ---
+
+![Complete project](images/showcase_static.png)
+
+--- /print-only ---
 
 ## You will need
 
