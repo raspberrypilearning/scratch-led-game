@@ -1,49 +1,29 @@
-## Améliorer ton projet
+## Challenge
 
-Maintenant, tu peux ajouter une autre LED pour indiquer lorsque tu te déplaces dans la mauvaise direction. Tu devras connecter une autre ampoule LED à ton Raspberry Pi en utilisant une broche numérotée différente et une autre broche GND.
+Make your project even cooler!
 
+You could:
 
-**Astuce :** assure-toi de te rappeler à quelle broche GPIO numérotée tu connectes la longue patte de ta LED, tu devras l'utiliser dans ton code !
+--- task ---
 
-Une fois que tu as connecté la LED à ton Raspberry Pi, fais un clic droit sur le script du sprite Player qui calcule la distance jusqu'au hérisson, et duplique-le pour qu'il y en ait deux dans ton espace de travail.
+Add sounds which play when the LED turns on and off.
 
-Dans le nouveau script, change le numéro dans les blocs `turn LED (21 v) [on v]`{:class="block3extensions"} et `turn LED (21 v) [off v]`{:class="block3extensions" } avec le nouveau numéro de ta deuxième LED.
+--- /task ---
 
-Dans cet exemple, j'ai utilisé la broche 3 :
+--- task ---
 
-```blocks3
-when green flag clicked
-forever
-if <[0] < (dist) > then
-+turn LED (3 v) [on v] ::led extension
-else
-+turn LED (3 v) [off v] ::led extension
-end
-```
+Make the hedgehog change position during the game to make it harder to find.
 
-Le script détermine à quelle distance du hérisson se trouve actuellement le joueur et la compare à la dernière distance calculée. Si la distance est plus petite, la LED s'allume. Inverse les deux paramètres `on`{:class="block3extensions"} et `off`{:class="block3extensions"} dans ton second script, donc il ressemble à ceci :
+--- /task ---
 
-```blocks3
-when green flag clicked
-forever
-if <[0] < (dist) > then
-+turn LED (3 v) [off v] ::led extension
-else
-+turn LED (3 v) [on v] ::led extension
-end
-```
-Et une lumière s’allumera lorsque tu t'éloigneras de ton objectif.
+--- task ---
 
---- collapse ---
----
-title: Le projet achevé
----
+Make a timer so the player has a limited time to find the hedgehog.
 
-Tu peux voir le [projet terminé ici](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
+--- /task ---
 
---- /collapse ---
+--- task ---
 
-Tu peux également « remixer » le projet pour apporter les modifications que tu souhaites. Tu peux ajouter des effets sonores au jeu ou à d'autres sprites ou arrière-plans, ou définir l'effet de couleur et les costumes du personnage du joueur. Peut-être ajouter un autre sprite caché qui active une autre LED ?
+Add another hidden character with its own LED.
 
-
---- save ---
+--- /task ---
