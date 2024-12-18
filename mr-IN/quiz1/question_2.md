@@ -1,32 +1,28 @@
-## Reflection
-
-You have learned a lot! Answer the questions below to reflect on what you've learned.
-
 --- question ---
 
 ---
 legend: Question 2 of 3
 ---
 
-Which Scratch extension did you use to control your LED in this project?
+Why did you have to swap your LED to pin 21 once you had tested it?
 
 --- choices ---
 
-- (x) Raspberry Pi Simple Electronics
+- (x) So that it could be controlled using Scratch
 
-  --- feedback --- Yes! This extension is the simplest one for using GPIO quickly. --- /feedback ---
+  --- feedback --- Yes! Pin 21 is a pin that can be controlled with a program. --- /feedback ---
 
-- ( ) Raspberry Pi GPIO
+- ( ) Because pin 1 is dangerous to use with a program
 
-  --- feedback --- No, we didn't use this one. While this is a good extension for electronics, we didn't use this one today. GPIO is a little more tricky to use, but it allows lots of options when coding! --- /feedback ---
+  --- feedback --- No, pin 1 is a power pin so it can't be switched on or off with code. --- /feedback ---
 
-- ( ) Raspberry Pi SenseHAT
+- ( ) Because pin 1 provides too much power
 
-  --- feedback --- No, we didn't use this one. This is an extension specifically for use with the SenseHAT add-on like the one on board the Space Station (which you can use with the AstroPi competition)! --- /feedback ---
+  --- feedback --- No, pin 1 is a power pin so it can't be switched on or off with code. --- /feedback ---
 
-- ( ) MakeyMakey
+- ( ) Because pin 21 is a ground pin
 
-  --- feedback --- No, we didn't use this one. This extension is used specifically with the MakeyMakey, a fun gadget that helps you create amazing inventions! --- /feedback ---
+  --- feedback --- No, if pin 21 was a ground pin then this would not make a circuit you could control with code. --- /feedback ---
 
 --- /choices ---
 
