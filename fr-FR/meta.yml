@@ -17,17 +17,13 @@ steps:
     title: Coder ton circuit
     completion:
       - engaged
+  - 
+    title: Add another LED
+    completion:
       - internal
   - 
-    title: Questionnaire rapide
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
+    title: Challenge
     completion:
       - external
   - 
-    title: Améliorer ton projet
-  - 
-    title: Et ensuite ?
+    title: What can you do now?
