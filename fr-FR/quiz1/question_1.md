@@ -12,25 +12,25 @@ Amuse-toi bien !
 legend: Question 1 sur 3
 ---
 
-Lorsque tu connectes une LED et une résistance à ton Raspberry Pi, il est important de tester que ton circuit fonctionne correctement. Comment tu fais ça ?
+When connecting an LED to your Raspberry Pi, it is important to test that your circuit is working correctly. Comment tu fais ça ?
 
 --- choices ---
 
-- ( ) Connecte la patte longue de la LED à la broche GND et la patte courte à la broche 3V3 avec une résistance entre les deux.
+- ( ) Connect the LED to a power pin and a ground pin, but don't use a resistor.
 
-  --- feedback --- Le courant circule toujours d'une broche 3V3 vers GND. Les LED ne fonctionnent que *dans un sens*. --- /feedback ---
+  --- feedback --- You should use a resistor to protect your LED. If you don't, it might shatter! --- /feedback ---
 
-- (x) Connecte la patte longue de la LED à la broche 3V3 et la patte courte à une broche GND, avec une résistance entre les deux.
+- (x) Connect the LED to a power pin and a ground pin, and use a resistor.
 
-  --- feedback --- Oui, le courant circulera de la broche 3V3, à travers la résistance, puis à la broche GND --- /feedback ---
+  --- feedback --- Yes, current will flow from the power pin, through the resistor and then to the ground pin. --- /feedback ---
 
-- ( ) Connecte la patte longue de la LED à une broche numérotée et la patte courte à la broche GND avec une résistance entre deux
+- ( ) Connect the LED to any two pins and use a resistor.
 
-  --- feedback --- Le courant circule toujours d'une broche 3V3 vers GND. Les LED ne fonctionnent que *dans un sens*. --- /feedback ---
+  --- feedback --- This won't necessarily work, you must make sure you connect the LED to power and ground pins. --- /feedback ---
 
-- ( ) Connecte la patte longue de la LED à une broche numérotée et la patte courte à la broche 3V3 avec une résistance entre deux
+- ( ) Connect a resistor between the two legs of the LED.
 
-  --- feedback --- Le courant circule toujours d'une broche 3V3 vers GND. Les LED ne fonctionnent que *dans un sens*. --- /feedback ---
+  --- feedback --- This won't do anything as you will have no power to your circuit. --- /feedback ---
 
 --- /choices ---
 
