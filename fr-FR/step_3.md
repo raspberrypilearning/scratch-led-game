@@ -1,23 +1,16 @@
 ## Coder ton circuit
 
-Dans cette étape, tu connecteras ton circuit terminé à une broche de sortie sur le Raspberry Pi et le contrôleras en utilisant l'extension `Simple Electronics`{:class="block3extensions"}.
+Write Scratch code so that your LED lights up when the player is near the hedgehog.
 
-Actuellement, ton circuit est testé et fonctionnel, et ta LED est allumée ; mais tu veux qu'elle s'allume quand quelque chose se passe dans ton programme Scratch.
-
-Pour faire cela, tu dois connecter ton circuit LED à une broche de sortie sur le Raspberry Pi.
-
---- task --- Retire le fil de liaison de la broche 1 et fixe-le à n'importe quel autre broche numérotée. Dans cet exemple, j'ai utilisé la broche 21 (car elle est facile d'accès), mais tu peux utiliser n'importe quelle broche numérotée à usage général (GP) sur ton Raspberry Pi.
-
+--- task --- Take the jumper wire off Pin 1 and attach it to **Pin 21** instead. Pin 21 is a pin which can be controlled with Scratch code.
 
 ![Schéma de circuit d'un fil de liaison avec une résistance et une LED câblées sur 3V3 sur un Raspberry Pi.](images/Pi_21_Complete.png)
-
-Si tu utilises une broche autre que la broche 21, assure-toi de changer le numéro **partout** où il apparaît dans ton code.
 
 --- /task ---
 
 --- task ---
 
-Télécharge et ouvre le projet de démarrage [disponible ici](https://rpf.io/p/en/scratch-led-game-get){:target="_blank"}.
+On the Raspberry Pi, download and open the [starter project](https://rpf.io/p/en/scratch-led-game-get){:target="_blank"}.
 
 --- collapse ---
 ---
@@ -28,7 +21,7 @@ Une fois que tu as téléchargé le fichier zip à partir du lien ci-dessus, ouv
 
 Trouve le fichier que tu viens de télécharger. Il se terminera par `.zip`.
 
-Fais un clic droit sur le fichier et choisis « Extraire les fichiers ». Extrais-les dans ton dossier de téléchargements.
+Right click on the file and choose 'Extract here' to extract them to your downloads folder.
 
 Dans Scratch 3 Desktop, clique sur le menu `Fichier` et choisis `Importer depuis votre ordinateur`.
 
@@ -36,20 +29,21 @@ Navigue à nouveau vers ton dossier de téléchargements et sélectionne le fich
 
 Clique sur `OK` ou appuie sur `Enter`.
 
-
 --- /collapse ---
 
 --- /task ---
 
 --- task ---
 
-Assure-toi que la scène est sélectionnée et que tu peux voir les scripts suivants : ![Capture d'écran des scripts. Quand le drapeau vert est cliqué.](images/stage_code.png)
+Make sure you have the **Stage** selected.
+
+![A section of the Scratch interface with a purple header labeled "Stage." Below, there is a small thumbnail image of a scenic forest background featuring trees, grass, and abstract green shapes.](images/choose-stage.png)
 
 --- /task ---
 
 --- task ---
 
-En utilisant l'extension `Simple Electronics`{:class="block3extensions"}, ajoute les blocs suivants dans le bloc `si`{:class="block3control"} de sorte que si `distance`{:class="block3variables"} est inférieur à `10`, la LED s'allume, `sinon`{:class="block3control"} elle s'éteint.
+Using the `Simple Electronics`{:class="block3extensions"} extension from the blocks menu, add the following blocks into the `if`{:class="block3control"} block.
 
 ```blocks3
 when green flag clicked
@@ -61,11 +55,13 @@ else
 end
 ```
 
+If the distance to the hedgehog is less than it was before (ie. a number less than 0), the LED turns on — `else`{:class="block3control"} it turns off.
+
 --- /task ---
 
 --- task ---
 
-Maintenant, clique sur le drapeau vert, et vois si tu peux chasser le hérisson !
+Click on the green flag. Use the arrow keys and the LED to hunt the hedgehog!
 
 --- /task ---
 
