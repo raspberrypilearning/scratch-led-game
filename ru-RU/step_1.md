@@ -12,7 +12,11 @@ View a 'virtual' version of the finished Physical Computing Project. Move your c
 </div>
 --- /no-print ---
 
---- print-only --- ![Complete project](images/showcase_static.png) --- /print-only ---
+--- print-only ---
+
+![Complete project](images/showcase_static.png)
+
+--- /print-only ---
 
 ## You will need
 
