@@ -1,25 +1,22 @@
-## Reflection
-
-You have learned a lot! Answer the questions below to reflect on what you've learned.
-
 --- question ---
 
 ---
 legend: Question 3 of 3
 ---
 
-"You want your LED to come on when your sprites are touching, but go off when they are not.
+You want your LED to come on when your sprites are touching, but go off when they are not.
 
 What blocks would you add to this script to make it work that way?
 
-`blocks3
+```blocks3
 when green flag clicked
 forever
-if <(touching[Sprite2]) > then
-  ...
+if <touching[Sprite2]> then
+
 else
-  ...
-end`
+
+end
+```
 
 --- choices ---
 
