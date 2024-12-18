@@ -1,49 +1,29 @@
-## Upgrade your project
+## Challenge
 
-Now, you can add another LED to show when you are moving in the wrong direction. You will need to connect another LED bulb to your Raspberry Pi using a different numbered pin and another ground pin.
+Make your project even cooler!
 
+You could:
 
-**Tip:** Make sure you remember which numbered GPIO pin you connect the long leg of your LED to - you'll need to use it in your code!
+--- task ---
 
-Once you have connected the LED to your Raspberry Pi, right-click the script on the Player sprite which calculates the distance to the hedgehog, and duplicate it so there are two in your workspace.
+Add sounds which play when the LED turns on and off.
 
-In the new script, change the number in the `turn LED (21 v) [on v]`{:class="block3extensions"} and `turn LED (21 v) [off v]`{:class="block3extensions"} blocks to the new number for your second LED.
+--- /task ---
 
-In this example I have used pin 3:
+--- task ---
 
-```blocks3
-when green flag clicked
-forever
-if <[0] < (dist) > then
-+turn LED (3 v) [on v] ::led extension
-else
-+turn LED (3 v) [off v] ::led extension
-end
-```
+Make the hedgehog change position during the game to make it harder to find.
 
-The script works out how far away from the hedgehog the player currently is, and checks that against the last distance it calculated. If the distance is smaller, it turns the LED on. Swap over the two `on`{:class="block3extensions"} and `off`{:class="block3extensions"} settings in your second script so it looks like this:
+--- /task ---
 
-```blocks3
-when green flag clicked
-forever
-if <[0] < (dist) > then
-+turn LED (3 v) [off v] ::led extension
-else
-+turn LED (3 v) [on v] ::led extension
-end
-```
-And one light will come on when you get further from your goal.
+--- task ---
 
---- collapse ---
----
-title: Completed project
----
+Make a timer so the player has a limited time to find the hedgehog.
 
-You can view the [completed project here](https://scratch.mit.edu/projects/486719199/){:target="_blank"}.
+--- /task ---
 
---- /collapse ---
+--- task ---
 
-You can also 'remix' the project to make any changes you like. You could add sound effects to the game or other sprites or backdrops, or set the colour effect and costumes of the player character. Maybe add another hidden sprite that activates another LED?
+Add another hidden character with its own LED.
 
-
---- save ---
+--- /task ---
