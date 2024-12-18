@@ -2,7 +2,9 @@
 
 Write Scratch code so that your LED lights up when the player is near the hedgehog.
 
---- task --- Take the jumper wire off Pin 1 and attach it to **Pin 21** instead. Pin 21 is a pin which can be controlled with Scratch code.
+--- task ---
+
+Take the jumper wire off Pin 1 and attach it to **Pin 21** instead. Pin 21 is a pin which can be controlled with Scratch code.
 
 ![Schéma de circuit d'un fil de liaison avec une résistance et une LED câblées sur 3V3 sur un Raspberry Pi.](images/Pi_21_Complete.png)
 
