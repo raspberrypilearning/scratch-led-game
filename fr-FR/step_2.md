@@ -16,7 +16,11 @@ Connect a **jumper wire** to the pin on your Raspberry Pi shown in the diagram. 
 
 --- /task ---
 
---- task --- Insère la **longue patte** de ta LED dans l'autre extrémité de ce fil de liaison. --- /task ---
+--- task ---
+
+Insert the **long leg** of your LED into the other end of this jumper wire.
+
+--- /task ---
 
 --- task ---
 
@@ -42,7 +46,9 @@ Insert the other leg of the resistor into another socket-to-socket jumper wire:
 
 --- /task ---
 
---- task --- Now, connect the loose jumper wire to **Pin 6** as shown in the diagram; this is a **ground** pin.
+--- task ---
+
+Now, connect the loose jumper wire to **Pin 6** as shown in the diagram; this is a **ground** pin.
 
 Dès que tu fermes le circuit en le connectant à ta broche GND, ta LED devrait s'allumer !
 
@@ -56,7 +62,9 @@ title: À l'aide, ma LED ne fonctionne pas !
 ---
 Si ta LED ne s'allume pas, assure-toi que la **patte longue** est connectée à la broche de sortie (broche 1) et la **patte courte** est connectée à la broche de masse (broche 6). Les LED ne fonctionnent que dans un sens !
 
-Si ta LED **ne s'allume toujours pas**, vérifie que toutes tes connexions sont bien fixées et s'ajustent correctement, puis remplace ta LED par une autre si elle ne fonctionne toujours pas (celle-ci est peut-être cassée). --- /collapse ---
+Si ta LED **ne s'allume toujours pas**, vérifie que toutes tes connexions sont bien fixées et s'ajustent correctement, puis remplace ta LED par une autre si elle ne fonctionne toujours pas (celle-ci est peut-être cassée).
+
+--- /collapse ---
 
 
 --- collapse ---
