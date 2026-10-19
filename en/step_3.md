@@ -4,9 +4,11 @@ Write Scratch code so that your LED lights up when the player is near the hedgeh
 
 --- task ---
 
-Take the jumper wire off Pin 1 and attach it to **Pin 21** instead. Pin 21 is a pin which can be controlled with Scratch code.
+Shut down your Raspberry Pi and disconnect its power before moving the wire. Move the jumper wire from **physical pin 1 (3V3)** to **GPIO21 (physical pin 40)**. Keep the LED and resistor connected in series. Reconnect the power when the wiring is ready.
 
-![Circuit diagram of a jumper wire with a resistor and LED wired to 3V3 on a Raspberry Pi.](images/Pi_21_Complete.png)
+Use the **GPIO number 21** in Scratch; physical pin 21 is a different pin.
+
+![An LED and resistor connected in series between GPIO21 (physical pin 40) and GND (physical pin 6) on a Raspberry Pi.](images/Pi_21_Complete.png)
 
 --- /task ---
 
@@ -57,7 +59,7 @@ else
 end
 ```
 
-If the distance to the hedgehog is less than it was before (ie. a number less than 0), the LED turns on — `else`{:class="block3control"} it turns off.
+The starter calculates `dist`{:class="block3variables"} by subtracting the current distance from the previous distance. When the player moves closer to the hedgehog, `dist` is greater than 0, so the LED turns on — `else`{:class="block3control"} it turns off.
 
 --- /task ---
 
