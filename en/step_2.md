@@ -10,7 +10,7 @@ In this step, you will connect an LED to your Raspberry Pi. You will need:
 
 --- task ---
 
-Connect a **jumper wire** to the pin on your Raspberry Pi shown in the diagram. This is Pin 1 - it provides power.
+Connect a **jumper wire** to the pin on your Raspberry Pi shown in the diagram. This is **physical pin 1 (3V3)** - it provides 3.3V power.
 
 ![Circuit diagram of a jumper wire connected to 3V3 on a Raspberry Pi.](images/Pi_jumper_Test1.png)
 
@@ -49,7 +49,7 @@ Insert the other leg of the resistor into another socket-to-socket jumper wire:
 
 --- task ---
 
-Now, connect the loose jumper wire to **Pin 6** as shown in the diagram; this is a **ground** pin.
+Now, connect the loose jumper wire to **physical pin 6 (GND)** as shown in the diagram; this is a **ground** pin.
 
 As soon as you close the circuit by connecting it back to your ground pin, your LED should light up! 
 
@@ -61,7 +61,7 @@ As soon as you close the circuit by connecting it back to your ground pin, your 
 ---
 title: Help – My LED isn't working!
 ---
-If your LED isn't lighting up, make sure you have the **long leg** connected to the output pin (Pin 1) and the **short leg** connected to the ground pin (Pin 6). LEDs only work one way round!
+If your LED isn't lighting up, make sure you have the **long leg** connected to the 3V3 power pin (physical pin 1) and the **short leg** connected through the resistor to a ground pin (physical pin 6). LEDs only work one way round!
 
 If your LED **still** isn't lighting up, check all your connections are secure and fit properly, then swap your LED for another one if it still won't work (this one might be broken).
 
